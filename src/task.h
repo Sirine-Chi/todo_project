@@ -1,14 +1,22 @@
+#include "config.h"
 
 class Rating {
-    
+    private:
+
+    public:
+
+    Rating(int a) {
+        a++;
+        // code
+    }
 };
 
 class Task {
     private:
 
-    public:
+    public: 
 
-    def edit_task() {
-        prinntf(task have been edited);
+    void edit_task() {
+        printf("task have been edited");
     };
 };
